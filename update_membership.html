@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Membership</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Update Membership</h2>
+    <form action="update_success.html" method="POST">
+        <label for="membership_id">Membership Number:</label>
+        <input type="text" id="membership_id" name="membership_id" required>
+        <br><br>
+        <label for="extension">Extend Membership:</label>
+        <select id="extension" name="extension">
+            <option value="6">6 Months</option>
+        </select>
+        <br><br>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
